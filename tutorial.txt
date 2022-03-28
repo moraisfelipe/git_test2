@@ -1,0 +1,7 @@
+- Create the repository in GitHub.
+- Clone it to your local machine (SSH key) using: "git clone <copied link>" in terminal.
+- After creating a .txt file using the touch command in command line, if we type "git status"
+in the terminal, the output is the .txt file shown in red, which means that the file is not staged.
+- To stage a file, type "git add <filename>"
+ 
+
