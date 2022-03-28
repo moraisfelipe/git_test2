@@ -1,7 +1,8 @@
 - Create the repository in GitHub.
 - Clone it to your local machine (SSH key) using: "git clone <copied link>" in terminal.
-- After creating a .txt file using the touch command in command line, if we type "git status"
+- After creating a .txt file using the touch command in command line, if we type 'git status'
 in the terminal, the output is the .txt file shown in red, which means that the file is not staged.
-- To stage a file, type "git add <filename>"
+- Type 'git add <filename>' to add the file to the staging area (like a “waiting room” for your changes until you commit them). After staged, if you type "git status" again, the file is now shown in green, not red.
+- Type 'git commit -m "Add hello_world.txt" ' and then type 'git status' once more. Now the file was commited, that is, we took a snapshot.
  
 
